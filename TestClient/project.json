@@ -1,0 +1,28 @@
+{
+  "version": "1.0.0-*",
+  "description": "TestClient Console Application",
+  "authors": [ "Tuan" ],
+  "tags": [ "" ],
+  "projectUrl": "",
+  "licenseUrl": "",
+
+  "compilationOptions": {
+    "emitEntryPoint": true
+  },
+
+  "dependencies": {
+  },
+
+  "commands": {
+    "TestClient": "TestClient"
+  },
+
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+        "Microsoft.AspNet.WebApi.Client": "5.2.3",
+        "Microsoft.Net.Http": "2.2.22"
+      }
+    }
+  }
+}
